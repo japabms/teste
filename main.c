@@ -8,7 +8,9 @@ float calcular_distancia(int x1, int x2, int y1, int y2) {
 
 int main(int argc, char *argv[])
 {
-	printf("%.2f", calcular_distancia(10, 20, 30, 40));
+	// definicao das variaveis
+	int x1,x2,x3,x4;
+	float distancia;
 
 	return EXIT_SUCCESS;
 }
